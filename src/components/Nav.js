@@ -10,10 +10,14 @@ function Navbar() {
                 <div className="navbar-container">
                     <ul class="main-navigation">
                         <li>
-                            Engineering
+                            <Link to='/engg' className="nav-links" >
+                                Engineering
+                            </Link>
                             <ul>
                                 <li>
-                                    Computer Science
+                                    <Link to='/engg/cs' className="nav-links" >
+                                        Computer Science
+                                    </Link>
                                     <ul>
                                         <li>
                                             <Link to='/engg/cs/dsa' className="nav-links" >
@@ -30,10 +34,14 @@ function Navbar() {
                             </ul>
                         </li>
                         <li>
+                            <Link to='/mngmt' className="nav-links" >
                             Management
+                            </Link>
                             <ul>
                                 <li>
-                                    Marketing
+                                    <Link to='/mngmt/marketing' className="nav-links" >
+                                        Marketing
+                                    </Link>
                                     <ul>
                                         <li>
                                             <Link to='/mngmt/marketing/dummy1' className="nav-links" >
@@ -48,7 +56,9 @@ function Navbar() {
                                     </ul>
                                 </li>
                                 <li>
-                                    Hotel
+                                    <Link to='/mngmt/hotel' className="nav-links" >
+                                        Hotel
+                                    </Link>
                                     <ul>
                                         <li>
                                             <Link to='/mngmt/hotel/dummy12' className="nav-links" >
